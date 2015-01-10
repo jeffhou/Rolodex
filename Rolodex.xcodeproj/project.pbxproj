@@ -14,6 +14,10 @@
 		764834051A5F379300EF895C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764834041A5F379300EF895C /* Images.xcassets */; };
 		764834081A5F379300EF895C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764834061A5F379300EF895C /* LaunchScreen.xib */; };
 		764834141A5F379300EF895C /* RolodexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764834131A5F379300EF895C /* RolodexTests.m */; };
+		764834221A60356D00EF895C /* AddLogEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764834211A60356D00EF895C /* AddLogEntryViewController.m */; };
+		764834251A60370100EF895C /* ContactLogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764834241A60370100EF895C /* ContactLogTableViewController.m */; };
+		764834281A604C9A00EF895C /* LogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 764834271A604C9A00EF895C /* LogEntry.m */; };
+		7648342E1A609E8700EF895C /* InboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7648342D1A609E8700EF895C /* InboxView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		7648340D1A5F379300EF895C /* RolodexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolodexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764834121A5F379300EF895C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764834131A5F379300EF895C /* RolodexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolodexTests.m; sourceTree = "<group>"; };
+		764834201A60356D00EF895C /* AddLogEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLogEntryViewController.h; sourceTree = "<group>"; };
+		764834211A60356D00EF895C /* AddLogEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLogEntryViewController.m; sourceTree = "<group>"; };
+		764834231A60370100EF895C /* ContactLogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactLogTableViewController.h; sourceTree = "<group>"; };
+		764834241A60370100EF895C /* ContactLogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactLogTableViewController.m; sourceTree = "<group>"; };
+		764834261A604C9A00EF895C /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntry.h; sourceTree = "<group>"; };
+		764834271A604C9A00EF895C /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntry.m; sourceTree = "<group>"; };
+		7648342C1A609E8700EF895C /* InboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxView.h; sourceTree = "<group>"; };
+		7648342D1A609E8700EF895C /* InboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,14 @@
 				764833FE1A5F379300EF895C /* ViewController.h */,
 				764833FF1A5F379300EF895C /* ViewController.m */,
 				764834011A5F379300EF895C /* Main.storyboard */,
+				7648342C1A609E8700EF895C /* InboxView.h */,
+				7648342D1A609E8700EF895C /* InboxView.m */,
+				764834261A604C9A00EF895C /* LogEntry.h */,
+				764834271A604C9A00EF895C /* LogEntry.m */,
+				764834231A60370100EF895C /* ContactLogTableViewController.h */,
+				764834241A60370100EF895C /* ContactLogTableViewController.m */,
+				764834201A60356D00EF895C /* AddLogEntryViewController.h */,
+				764834211A60356D00EF895C /* AddLogEntryViewController.m */,
 				764834041A5F379300EF895C /* Images.xcassets */,
 				764834061A5F379300EF895C /* LaunchScreen.xib */,
 				764833F71A5F379300EF895C /* Supporting Files */,
@@ -222,6 +242,10 @@
 				764834001A5F379300EF895C /* ViewController.m in Sources */,
 				764833FD1A5F379300EF895C /* AppDelegate.m in Sources */,
 				764833FA1A5F379300EF895C /* main.m in Sources */,
+				764834281A604C9A00EF895C /* LogEntry.m in Sources */,
+				764834221A60356D00EF895C /* AddLogEntryViewController.m in Sources */,
+				7648342E1A609E8700EF895C /* InboxView.m in Sources */,
+				764834251A60370100EF895C /* ContactLogTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
